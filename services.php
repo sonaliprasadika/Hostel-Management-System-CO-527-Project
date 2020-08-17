@@ -88,7 +88,7 @@
 <!-- //banner --> 
 
 <!-- services -->
-<section class="services py-5">
+<section class="services py-1">
 	<div class="container py-lg-5 py-3">
 		<h2 class="heading text-capitalize mb-sm-5 mb-4"> Hostels </h2>
 		<div class="row service-grids">

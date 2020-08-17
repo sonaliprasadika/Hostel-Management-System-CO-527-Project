@@ -20,7 +20,22 @@
     <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <!-- /google fonts-->
-
+    <style>
+      .button {
+        background: #1ec6e4;
+        color: #ffffff;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: none;
+        padding: 12px 180px;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 6px;
+        
+      }
+     
+    </style>
 </head>
 
 
@@ -48,7 +63,10 @@
                 <a href="#">Forgot Password?</a>
                 <p><input type="checkbox">Remember Me</p>
             </div>-->
-            <button type="submit" name="login-submit">Login</button>
+            <!-- <button type="submit" name="login-submit">Login</button> -->
+        
+            <br>
+            <a href="admin/admin_home.php" class="button">Login</a>
         </form>
           <p class=" w3l-register-p">Login as<a href="index.php" class="register"> Student</a></p>
       <!--  <p class=" w3l-register-p">Don't have an account?<a href="signup.php" class="register"> Sign up</a></p>-->
